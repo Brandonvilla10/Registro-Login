@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 30px;color: white;
+}
+.cambioLogin{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(15, 118, 84);
+    position: absolute;
+    bottom: 70px;
+    
+}
+
+
+label{
+    color: rgb(5, 183, 165);
+    font-size: large;
+}
+.tarjeta{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 22%;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 26px black;
+    perspective: 800px
+}
+
+
+.seccionIzquierda{
+
+    width: 400px;
+    height: 600px;
+    max-height: 100%;
+    background-image: url("../assets/img/descarga.jpeg")
+}
+
+
+.seccionDerecha{
+
+    background-color: rgba(10, 27, 49, 0.862);
+    width: 400px;
+    height: 600px;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.tituloregistro{
+    position: absolute;
+    top: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.inputs{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.entradaDatos{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border-color: white;
+    border-style: double;
+}
+.entradaDatos::placeholder{
+    padding-left: 10px;
+}
+
+.sumit{
+    font-size: large;
+    font-weight: bolder;
+    border-style: none ;
+    height: 40px ;
+    margin-top: 20px;
+    color: white;
+    background-color: aquamarine;
+   
+}
+.sumit:hover{
+    transform:scale3d(1.2,1.4,1.2); transition: 2s;
+    background-color: rgb(29, 171, 124);
+    
+}
+
+select { 
+    margin-top: 20px;
+    color: white 
+}
+
+option:hover { 
+    color:yellow;
+    background-color:red;
+    padding: 10px;
+    }
+
+option{
+    background-color: aquamarine;
+    border-color: aliceblue;
+    padding: 10px;
+}
